@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5147" started-at="2017-04-01T12:54:12Z" finished-at="2017-04-01T12:54:17Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5147" started-at="2017-04-01T12:54:12Z" finished-at="2017-04-01T12:54:17Z">
+      <class name="com.hrm.scripts.TestLoginButtonIsPresent">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="initFrameWork" is-config="true" duration-ms="172" started-at="2017-04-01T18:24:12Z" finished-at="2017-04-01T18:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initFrameWork -->
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="initApplication" is-config="true" duration-ms="3549" started-at="2017-04-01T18:24:12Z" finished-at="2017-04-01T18:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initApplication -->
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="initGlobalVar" is-config="true" duration-ms="0" started-at="2017-04-01T18:24:12Z" finished-at="2017-04-01T18:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="noAutoLogin()[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="noAutoLogin" is-config="true" duration-ms="0" started-at="2017-04-01T18:24:16Z" finished-at="2017-04-01T18:24:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noAutoLogin -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="preCondition" is-config="true" duration-ms="742" started-at="2017-04-01T18:24:16Z" finished-at="2017-04-01T18:24:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hrm.scripts.TestLoginButtonIsPresent.testLoginButtonIsPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method status="PASS" signature="testLoginButtonIsPresent()[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="testLoginButtonIsPresent" duration-ms="75" started-at="2017-04-01T18:24:17Z" finished-at="2017-04-01T18:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonIsPresent -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="closeApplication" is-config="true" duration-ms="781" started-at="2017-04-01T18:24:17Z" finished-at="2017-04-01T18:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="postCondition" is-config="true" duration-ms="0" started-at="2017-04-01T18:24:17Z" finished-at="2017-04-01T18:24:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginButtonIsPresent status=SUCCESS method=TestLoginButtonIsPresent.testLoginButtonIsPresent()[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.hrm.scripts.TestLoginButtonIsPresent@7e0ea639]" name="publishReport" is-config="true" duration-ms="172" started-at="2017-04-01T18:24:17Z" finished-at="2017-04-01T18:24:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.hrm.scripts.TestLoginButtonIsPresent -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
