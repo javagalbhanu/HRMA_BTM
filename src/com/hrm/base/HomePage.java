@@ -83,4 +83,11 @@ public abstract class HomePage extends BasePage {
 		pim_Menu.click();
 	}
 	
+	public void click_AddEmp_Menu(){
+		addEmp_Menu.click();
+	}
+	
+	public void clickEmpList_Menu(){
+		empList_Menu.click();
+	}
 }

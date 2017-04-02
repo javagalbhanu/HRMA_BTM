@@ -23,3 +23,77 @@ com.hrm.pages.LoginPage 2017-04-01 18:24:17,130 com.hrm.base.BasePage.checkEleme
 com.hrm.scripts.TestLoginButtonIsPresent 2017-04-01 18:24:17,130 com.hrm.base.BaseTest.postCondition(BaseTest.java:125) Test is PASSED 
 com.hrm.scripts.TestLoginButtonIsPresent 2017-04-01 18:24:17,130 com.hrm.base.BaseTest.closeApplication(BaseTest.java:98) Closing Browser 
 com.hrm.scripts.TestLoginButtonIsPresent 2017-04-01 18:24:17,911 com.hrm.base.BaseTest.publishReport(BaseTest.java:72) Publishing ExtentReport:./report/01_04_2017_06_24_12.html 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:08,957 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:09,176 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:09,192 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:14,790 com.hrm.base.BaseTest.preCondition(BaseTest.java:106) Auto login 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:15,825 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Started executing test:testCreateDeleteEmp 
+com.hrm.pages.PersonalDetailsPage 2017-04-02 15:23:17,895 com.hrm.pages.PersonalDetailsPage.checkFirstName(PersonalDetailsPage.java:24) PASS: FirstName is matching 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:17,926 com.hrm.base.BaseTest.postCondition(BaseTest.java:125) Test is PASSED 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:17,926 com.hrm.base.BaseTest.postCondition(BaseTest.java:128) Auto logout 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:18,297 com.hrm.base.BaseTest.closeApplication(BaseTest.java:98) Closing Browser 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:19,375 com.hrm.base.BaseTest.publishReport(BaseTest.java:72) Publishing ExtentReport:./report/02_04_2017_03_23_08.html 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:54,667 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:54,870 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:54,885 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:23:59,727 com.hrm.base.BaseTest.preCondition(BaseTest.java:106) Auto login 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:24:00,850 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Started executing test:testCreateDeleteEmp 
+com.hrm.pages.PersonalDetailsPage 2017-04-02 15:24:02,529 com.hrm.pages.PersonalDetailsPage.checkFirstName(PersonalDetailsPage.java:24) PASS: FirstName is matching 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:24:07,564 com.hrm.base.BaseTest.postCondition(BaseTest.java:125) Test is PASSED 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:24:07,564 com.hrm.base.BaseTest.postCondition(BaseTest.java:128) Auto logout 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:24:07,818 com.hrm.base.BaseTest.closeApplication(BaseTest.java:98) Closing Browser 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 15:24:08,478 com.hrm.base.BaseTest.publishReport(BaseTest.java:72) Publishing ExtentReport:./report/02_04_2017_03_23_54.html 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:40,848 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:41,083 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:41,099 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:45,436 com.hrm.base.BaseTest.preCondition(BaseTest.java:106) Auto login 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:46,434 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Started executing test:testCreateDeleteEmp 
+com.hrm.pages.PersonalDetailsPage 2017-04-02 16:22:48,099 com.hrm.pages.PersonalDetailsPage.checkFirstName(PersonalDetailsPage.java:24) PASS: FirstName is matching 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:53,569 com.hrm.base.BaseTest.postCondition(BaseTest.java:125) Test is PASSED 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:53,569 com.hrm.base.BaseTest.postCondition(BaseTest.java:128) Auto logout 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:53,843 com.hrm.base.BaseTest.closeApplication(BaseTest.java:98) Closing Browser 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:22:54,702 com.hrm.base.BaseTest.publishReport(BaseTest.java:72) Publishing ExtentReport:./report/02_04_2017_04_22_40.html 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:30:44,486 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:30:44,642 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:30:44,658 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:30:48,919 com.hrm.base.BaseTest.preCondition(BaseTest.java:106) Auto login 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:30:49,893 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Started executing test:testCreateDeleteEmp 
+com.hrm.pages.PersonalDetailsPage 2017-04-02 16:30:51,664 com.hrm.pages.PersonalDetailsPage.checkFirstName(PersonalDetailsPage.java:24) PASS: FirstName is matching 
+com.hrm.pages.EmpInfoPage 2017-04-02 16:31:12,657 com.hrm.base.BasePage.checkElementIsNotPresent(BasePage.java:59) PASS: Element is Not present 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:31:17,666 com.hrm.base.BaseTest.postCondition(BaseTest.java:125) Test is PASSED 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:31:17,666 com.hrm.base.BaseTest.postCondition(BaseTest.java:128) Auto logout 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:31:17,930 com.hrm.base.BaseTest.closeApplication(BaseTest.java:98) Closing Browser 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:31:18,669 com.hrm.base.BaseTest.publishReport(BaseTest.java:72) Publishing ExtentReport:./report/02_04_2017_04_30_44.html 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:32:29,654 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:32:29,857 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:32:29,872 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:32:34,168 com.hrm.base.BaseTest.preCondition(BaseTest.java:106) Auto login 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:32:35,175 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Started executing test:testCreateDeleteEmp 
+com.hrm.pages.PersonalDetailsPage 2017-04-02 16:32:36,903 com.hrm.pages.PersonalDetailsPage.checkFirstName(PersonalDetailsPage.java:24) PASS: FirstName is matching 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:11,545 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:11,702 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:11,718 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:24,243 com.hrm.base.BaseTest.preCondition(BaseTest.java:106) Auto login 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:24,625 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Started executing test:testCreateDeleteEmp 
+com.hrm.pages.PersonalDetailsPage 2017-04-02 16:37:32,642 com.hrm.pages.PersonalDetailsPage.checkFirstName(PersonalDetailsPage.java:24) PASS: FirstName is matching 
+com.hrm.pages.EmpInfoPage 2017-04-02 16:37:54,062 com.hrm.base.BasePage.checkElementIsNotPresent(BasePage.java:59) PASS: Element is Not present 
+com.hrm.pages.EmpInfoPage 2017-04-02 16:37:54,062 com.hrm.pages.EmpInfoPage.checkEmpIsDeleted(EmpInfoPage.java:47) PASS:Emp:0012is Deleted 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:59,071 com.hrm.base.BaseTest.postCondition(BaseTest.java:125) Test is PASSED 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:59,071 com.hrm.base.BaseTest.postCondition(BaseTest.java:128) Auto logout 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:37:59,362 com.hrm.base.BaseTest.closeApplication(BaseTest.java:98) Closing Browser 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:38:00,578 com.hrm.base.BaseTest.publishReport(BaseTest.java:72) Publishing ExtentReport:./report/02_04_2017_04_37_11.html 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:57:00,296 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:57:00,593 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 16:57:00,609 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:01,772 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:55) Initializing ExtentReport 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:02,068 com.hrm.base.BaseTest.initFrameWork(BaseTest.java:60) Initialize Global Variables 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:02,068 com.hrm.base.BaseTest.initApplication(BaseTest.java:85) Opening Browser:chrome 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:06,425 com.hrm.base.BaseTest.preCondition(BaseTest.java:106) Auto login 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:07,407 com.hrm.base.BaseTest.preCondition(BaseTest.java:110) Started executing test:testCreateDeleteEmp 
+com.hrm.pages.PersonalDetailsPage 2017-04-02 17:01:09,539 com.hrm.pages.PersonalDetailsPage.checkFirstName(PersonalDetailsPage.java:24) PASS: FirstName is matching 
+com.hrm.pages.EmpInfoPage 2017-04-02 17:01:30,518 com.hrm.base.BasePage.checkElementIsNotPresent(BasePage.java:59) PASS: Element is Not present 
+com.hrm.pages.EmpInfoPage 2017-04-02 17:01:30,518 com.hrm.pages.EmpInfoPage.checkEmpIsDeleted(EmpInfoPage.java:47) PASS:Emp:0013 is Deleted 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:30,518 com.hrm.base.BaseTest.postCondition(BaseTest.java:125) Test is PASSED 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:30,518 com.hrm.base.BaseTest.postCondition(BaseTest.java:128) Auto logout 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:30,787 com.hrm.base.BaseTest.closeApplication(BaseTest.java:98) Closing Browser 
+com.hrm.scripts.TestCreateDeleteEmp 2017-04-02 17:01:31,506 com.hrm.base.BaseTest.publishReport(BaseTest.java:72) Publishing ExtentReport:./report/02_04_2017_05_01_01.html 
