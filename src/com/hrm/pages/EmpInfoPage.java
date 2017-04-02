@@ -23,6 +23,8 @@ public class EmpInfoPage extends HomePage{
 	@FindBy(id="dialogDeleteBtn")
 	private WebElement btnOK;
 	
+	@FindBy(id="empsearch_termination")
+	private WebElement includeListBox;
 	
 	public void checkSearchButtonIsPresent(){
 		checkElementIsPresent(searchBtn);
@@ -45,5 +47,13 @@ public class EmpInfoPage extends HomePage{
 		String xp="//a[.='"+eID+"']";
 		checkElementIsNotPresent(By.xpath(xp));
 		log.info("PASS:Emp:"+eID+" is Deleted");
+	}
+	
+	public void checkIncludeListBoxIsSorted(){
+		checkListBoxIsSorted(includeListBox, 0);
+	}
+	
+	public void checkIncludeListBoxHasNoDuplicate(){
+		checkListBoxHasNoDuplicate(includeListBox,0);
 	}
 }
