@@ -5,17 +5,18 @@
   <test name="TestOnChrome(failed)" parallel="tests">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.hrm.scripts.TestSearchButton">
+      <class name="com.hrm.scripts.TestLoginButtonIsPresent">
         <methods>
           <include name="initFrameWork"/>
           <include name="postCondition"/>
           <include name="initApplication"/>
           <include name="closeApplication"/>
           <include name="publishReport"/>
+          <include name="disableAutoLoginLogout"/>
           <include name="preCondition"/>
           <include name="initGlobalVar"/>
         </methods>
-      </class> <!-- com.hrm.scripts.TestSearchButton -->
+      </class> <!-- com.hrm.scripts.TestLoginButtonIsPresent -->
       <class name="com.hrm.scripts.LoginLogoutTest">
         <methods>
           <include name="postCondition"/>
@@ -24,6 +25,14 @@
           <include name="preCondition"/>
         </methods>
       </class> <!-- com.hrm.scripts.LoginLogoutTest -->
+      <class name="com.hrm.scripts.TestSearchButton">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestSearchButton -->
       <class name="com.hrm.scripts.TestIncludeListBox">
         <methods>
           <include name="testIncludeListBox"/>
@@ -33,15 +42,22 @@
           <include name="preCondition"/>
         </methods>
       </class> <!-- com.hrm.scripts.TestIncludeListBox -->
-      <class name="com.hrm.scripts.TestLoginButtonIsPresent">
+      <class name="com.hrm.scripts.TestJobTitle">
         <methods>
           <include name="postCondition"/>
           <include name="initApplication"/>
           <include name="closeApplication"/>
-          <include name="disableAutoLoginLogout"/>
           <include name="preCondition"/>
         </methods>
-      </class> <!-- com.hrm.scripts.TestLoginButtonIsPresent -->
+      </class> <!-- com.hrm.scripts.TestJobTitle -->
+      <class name="com.hrm.scripts.TestUserRoleListBox">
+        <methods>
+          <include name="postCondition"/>
+          <include name="initApplication"/>
+          <include name="closeApplication"/>
+          <include name="preCondition"/>
+        </methods>
+      </class> <!-- com.hrm.scripts.TestUserRoleListBox -->
       <class name="com.hrm.scripts.TestCreateDeleteEmp">
         <methods>
           <include name="postCondition"/>

@@ -115,4 +115,12 @@ public abstract class HomePage extends BasePage {
 	public void clickUsersMenu(){
 		userMenu.click();
 	}
+	
+	public void clickLeaveMenu(){
+		leaveMenu.click();
+	}
+	
+	public void moveToAdmin(){
+		Utility.moveToElement(driver,adminModule);
+	}
 }

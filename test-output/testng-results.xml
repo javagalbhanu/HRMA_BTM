@@ -2,20 +2,16 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7510" started-at="2017-04-09T11:06:42Z" finished-at="2017-04-09T11:06:50Z">
+  <suite name="Default suite" duration-ms="12188" started-at="2017-04-09T13:02:02Z" finished-at="2017-04-09T13:02:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7510" started-at="2017-04-09T11:06:42Z" finished-at="2017-04-09T11:06:50Z">
-      <class name="com.hrm.scripts.TestUserRoleListBox">
-        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="initFrameWork" is-config="true" duration-ms="187" started-at="2017-04-09T16:36:42Z" finished-at="2017-04-09T16:36:42Z">
+    <test name="Default test" duration-ms="12188" started-at="2017-04-09T13:02:02Z" finished-at="2017-04-09T13:02:14Z">
+      <class name="com.hrm.scripts.TestLeaveListToolTip">
+        <test-method status="PASS" signature="initFrameWork()[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="initFrameWork" is-config="true" duration-ms="234" started-at="2017-04-09T18:32:02Z" finished-at="2017-04-09T18:32:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initFrameWork -->
-        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="initGlobalVar" is-config="true" duration-ms="0" started-at="2017-04-09T16:36:42Z" finished-at="2017-04-09T16:36:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initGlobalVar -->
-        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="initApplication" is-config="true" duration-ms="3533" started-at="2017-04-09T16:36:42Z" finished-at="2017-04-09T16:36:46Z">
+        <test-method status="PASS" signature="initApplication(java.lang.String)[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="initApplication" is-config="true" duration-ms="3501" started-at="2017-04-09T18:32:02Z" finished-at="2017-04-09T18:32:06Z">
           <params>
             <param index="0">
               <value>
@@ -26,41 +22,45 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initApplication -->
-        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="preCondition" is-config="true" duration-ms="1855" started-at="2017-04-09T16:36:46Z" finished-at="2017-04-09T16:36:48Z">
+        <test-method status="PASS" signature="initGlobalVar()[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="initGlobalVar" is-config="true" duration-ms="0" started-at="2017-04-09T18:32:02Z" finished-at="2017-04-09T18:32:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initGlobalVar -->
+        <test-method status="PASS" signature="preCondition(java.lang.reflect.Method)[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="preCondition" is-config="true" duration-ms="1728" started-at="2017-04-09T18:32:06Z" finished-at="2017-04-09T18:32:08Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void com.hrm.scripts.TestUserRoleListBox.testUserRoleListBox()]]>
+                <![CDATA[public void com.hrm.scripts.TestLeaveListToolTip.testLeaveListToolTip() throws java.lang.InterruptedException,java.awt.AWTException]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method status="PASS" signature="testUserRoleListBox()[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="testUserRoleListBox" duration-ms="1044" started-at="2017-04-09T16:36:48Z" finished-at="2017-04-09T16:36:49Z">
+        <test-method status="PASS" signature="testLeaveListToolTip()[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="testLeaveListToolTip" duration-ms="6032" started-at="2017-04-09T18:32:08Z" finished-at="2017-04-09T18:32:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUserRoleListBox -->
-        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="postCondition" is-config="true" duration-ms="309" started-at="2017-04-09T16:36:49Z" finished-at="2017-04-09T16:36:49Z">
+        </test-method> <!-- testLeaveListToolTip -->
+        <test-method status="PASS" signature="postCondition(org.testng.ITestResult)[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="postCondition" is-config="true" duration-ms="263" started-at="2017-04-09T18:32:14Z" finished-at="2017-04-09T18:32:14Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testUserRoleListBox status=SUCCESS method=TestUserRoleListBox.testUserRoleListBox()[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639] output={null}]]]>
+                <![CDATA[[TestResult name=testLeaveListToolTip status=SUCCESS method=TestLeaveListToolTip.testLeaveListToolTip()[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="closeApplication" is-config="true" duration-ms="753" started-at="2017-04-09T16:36:49Z" finished-at="2017-04-09T16:36:50Z">
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="closeApplication" is-config="true" duration-ms="647" started-at="2017-04-09T18:32:14Z" finished-at="2017-04-09T18:32:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.hrm.scripts.TestUserRoleListBox@7e0ea639]" name="publishReport" is-config="true" duration-ms="266" started-at="2017-04-09T16:36:50Z" finished-at="2017-04-09T16:36:50Z">
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.hrm.scripts.TestLeaveListToolTip@7e0ea639]" name="publishReport" is-config="true" duration-ms="218" started-at="2017-04-09T18:32:14Z" finished-at="2017-04-09T18:32:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- publishReport -->
-      </class> <!-- com.hrm.scripts.TestUserRoleListBox -->
+      </class> <!-- com.hrm.scripts.TestLeaveListToolTip -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

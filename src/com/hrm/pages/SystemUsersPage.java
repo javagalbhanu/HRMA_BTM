@@ -7,7 +7,6 @@ import org.openqa.selenium.support.FindBy;
 import com.hrm.base.HomePage;
 
 public class SystemUsersPage extends HomePage{
-
 	public SystemUsersPage(WebDriver driver) {
 		super(driver);
 	}

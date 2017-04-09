@@ -13,9 +13,11 @@ import com.hrm.pages.PersonalDetailsPage;
 public class TestCreateDeleteEmp extends BaseTest{
 
 	@Test(priority=4)
-	public void testCreateDeleteEmp() throws InterruptedException{
-		String fn=Utility.getExcelCellValue(INPUT_PATH, "Emp",1,0);
-		String ln=Utility.getExcelCellValue(INPUT_PATH, "Emp",1,1);
+	public void testCreateDeleteEmp(){
+		int rc=Utility.getExcelRowCount(INPUT_PATH, "Emp");
+		for(int i=1;i<=rc;i++){
+		String fn=Utility.getExcelCellValue(INPUT_PATH, "Emp",i,0);
+		String ln=Utility.getExcelCellValue(INPUT_PATH, "Emp",i,1);
 		// go to PIM->add employee
 		DashboardPage dbPage=new DashboardPage(driver);
 		dbPage.clickPIM_Menu();
@@ -41,5 +43,6 @@ public class TestCreateDeleteEmp extends BaseTest{
 		eiPage.clickOK();
 		//verify deleted emp not present
 		eiPage.checkEmpIsDeleted(eID);
+		}
 	}
 }
