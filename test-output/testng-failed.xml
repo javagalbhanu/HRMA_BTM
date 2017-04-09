@@ -1,55 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [OrangeSuite]" parallel="tests">
-  <parameter name="browser" value="chrome"/>
-  <test name="TestOnChrome(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="com.hrm.scripts.TestSearchButton">
+      <class name="com.hrm.scripts.TestJobTitle">
         <methods>
+          <include name="testJobTitle"/>
           <include name="initFrameWork"/>
-          <include name="postCondition"/>
           <include name="initApplication"/>
+          <include name="postCondition"/>
           <include name="closeApplication"/>
           <include name="publishReport"/>
           <include name="preCondition"/>
           <include name="initGlobalVar"/>
         </methods>
-      </class> <!-- com.hrm.scripts.TestSearchButton -->
-      <class name="com.hrm.scripts.LoginLogoutTest">
-        <methods>
-          <include name="postCondition"/>
-          <include name="initApplication"/>
-          <include name="closeApplication"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.hrm.scripts.LoginLogoutTest -->
-      <class name="com.hrm.scripts.TestIncludeListBox">
-        <methods>
-          <include name="testIncludeListBox"/>
-          <include name="postCondition"/>
-          <include name="initApplication"/>
-          <include name="closeApplication"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.hrm.scripts.TestIncludeListBox -->
-      <class name="com.hrm.scripts.TestLoginButtonIsPresent">
-        <methods>
-          <include name="postCondition"/>
-          <include name="initApplication"/>
-          <include name="closeApplication"/>
-          <include name="disableAutoLoginLogout"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.hrm.scripts.TestLoginButtonIsPresent -->
-      <class name="com.hrm.scripts.TestCreateDeleteEmp">
-        <methods>
-          <include name="postCondition"/>
-          <include name="initApplication"/>
-          <include name="closeApplication"/>
-          <include name="preCondition"/>
-        </methods>
-      </class> <!-- com.hrm.scripts.TestCreateDeleteEmp -->
+      </class> <!-- com.hrm.scripts.TestJobTitle -->
     </classes>
-  </test> <!-- TestOnChrome(failed) -->
-</suite> <!-- Failed suite [OrangeSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

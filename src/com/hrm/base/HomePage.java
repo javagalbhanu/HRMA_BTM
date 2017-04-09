@@ -74,6 +74,10 @@ public abstract class HomePage extends BasePage {
 	@FindBy(id="menu_admin_workShift")
 	private WebElement adminJobWorkshifts;
 	
+	@FindBy(id="menu_admin_viewJobTitleList")
+	private WebElement jobTitleMenu;
+	
+	
 	public void logout() {
 		Utility.clickUsingJS(driver, welcome);
 		Utility.clickUsingJS(driver, logout);
@@ -89,5 +93,26 @@ public abstract class HomePage extends BasePage {
 	
 	public void clickEmpList_Menu(){
 		empList_Menu.click();
+	}
+	
+	
+	public void clickAdminModule(){
+		adminModule.click();
+	}
+	
+	public void moveToJobMenu(){
+		Utility.moveToElement(driver, admin_Job_Menu);
+	}
+	
+	public void clickJobTitleMenu(){
+		jobTitleMenu.click();
+	}
+	
+	public void moveToUserManagementMenu(){
+		Utility.moveToElement(driver,userManagementMenu);
+	}
+	
+	public void clickUsersMenu(){
+		userMenu.click();
 	}
 }

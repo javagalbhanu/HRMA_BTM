@@ -117,7 +117,8 @@ public class Utility {
 		try {
 			wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 			return true;
-		} catch (Exception E) {
+		} catch (Exception e) {
+			//e.printStackTrace();
 			return false;
 		}
 	}
@@ -126,7 +127,7 @@ public class Utility {
 		try {
 			wait.until(ExpectedConditions.invisibilityOf(element));
 			return true;
-		} catch (Exception E) {
+		} catch (Exception e) {
 			return false;
 		}
 	}
@@ -135,7 +136,9 @@ public class Utility {
 		try {
 			wait.until(ExpectedConditions.invisibilityOfElementLocated(locator));
 			return true;
-		} catch (Exception E) {
+		} catch (Exception e) {
+			//e.printStackTrace();
+			
 			return false;
 		}
 	}
